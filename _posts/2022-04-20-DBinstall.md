@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "M1 MAC install DB(for database)"
+image: m1.jpg
+categories: all apple(m1)
+---
+
 # M1 맥북 데이터베이스 사용하기  
 
 > 1. Oracle JDBC Driver  
@@ -15,7 +22,6 @@
 Oracle JDBC 공식 홈페이지에 접속한 뒤, **19c버전**을 다운받는다.  
 그 이유는 뒤에 Oracle 전자지갑 버전이 **19c**이기에 버전을 맞추기 위함이다.
 
-![image description]()
 
 ---
 
@@ -105,7 +111,7 @@ Oracle JDBC 공식 홈페이지에 접속한 뒤, **19c버전**을 다운받는�
 이 과정이 한번에 성공한다면 아주 좋겠지만 나도 그렇고 처음엔 실패투성이다.  
 그래도 성공한케이스를 업로드해놓고 나중에 세팅할일 있으면 두고두고 꺼내봐야겠다.  
 
-## 오류가 정말 많이 생길수 있지만, 계속해서 구글링하면서 전부 해결해볼거다!  
+### 오류가 정말 많이 생길수 있지만, 계속해서 구글링하면서 전부 해결해볼거다!  
 
 출처 : [J Log](https://velog.io/@ejayjeon/M1%EC%97%90%EC%84%9C-%EC%98%A4%EB%9D%BC%ED%81%B4-%EC%A0%84%EC%9E%90%EC%A7%80%EA%B0%91%EC%9C%BC%EB%A1%9C-DB-%EC%9D%B4%EC%9A%A9%ED%95%98%EA%B8%B0%EC%97%B0%EA%B2%B0-%ED%8E%B8)
 
