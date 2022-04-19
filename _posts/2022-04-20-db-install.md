@@ -1,9 +1,9 @@
----
+---  
+published: true
 layout: post
 title:  "M1 MAC install DB(for database)"
 image: m1.jpg
 categories: all apple(m1)  
-published: true
 ---
 
 # M1 맥북 데이터베이스 사용하기  
