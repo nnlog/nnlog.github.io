@@ -3,7 +3,7 @@ published: true
 layout: post
 title:  "M1 MAC install DB(for dbeaver)"
 image: m1.jpg
-categories: all apple  
+categories: ALL apple  
 ---  
 
 # M1 맥북 데이터베이스 사용하기  
