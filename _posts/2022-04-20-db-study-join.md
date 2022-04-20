@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "DB study about join"  
+image: study.jpg  
+categories: all DB  
+---  
+
+
 # Join  
 - 두개의 테이블에 하나라도 같은 칼럼이 있어야 한다.
 - 두 컬럼의 값은 공유 되어야 한다.
