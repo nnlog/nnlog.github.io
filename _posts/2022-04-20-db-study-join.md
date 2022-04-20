@@ -2,7 +2,7 @@
 layout: post
 title:  "DB study about join"  
 image: study.jpg  
-categories: ALL db  
+categories: all db  
 ---  
 
 
