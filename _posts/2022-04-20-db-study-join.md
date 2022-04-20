@@ -11,7 +11,7 @@
 
 <br/>  
 
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/VHcySzM/inner-join.png" alt="inner-join" border="0"></a>  
+
 
 <br/>  
 
