@@ -11,11 +11,11 @@
 
 <br/>  
 
-
+![inner_join](https://user-images.githubusercontent.com/103972967/164183834-fb8a819d-bb2b-414f-bce8-3b0882d02207.PNG)  
 
 <br/>  
 
-<a href="https://ibb.co/9cp5Sp6"><img src="https://i.ibb.co/BcfMFfb/inner-join2.png" alt="inner-join2" border="0"></a>  
+ ![inner_join2](https://user-images.githubusercontent.com/103972967/164183896-caffe174-2b47-4a8e-9e92-7a51a7d7c234.PNG)  
 
 <br/>  
 
@@ -47,11 +47,11 @@ select * from sawon a
 
 <br/>  
 
-<a href="https://ibb.co/cx6VxK9"><img src="https://i.ibb.co/Tr4drDG/left-outer-join.png" alt="left-outer-join" border="0"></a>  
+![left_outer_join](https://user-images.githubusercontent.com/103972967/164183982-06f97b3a-a516-483a-b2ba-bba23da63bd8.PNG)  
 
 <br/>  
 
-<a href="https://ibb.co/jRBzW8K"><img src="https://i.ibb.co/JQ0qycL/left-outer-join2.png" alt="left-outer-join2" border="0"></a>  
+![left_outer_join2](https://user-images.githubusercontent.com/103972967/164184055-989ac579-71bc-47ed-a661-662c1267f16f.PNG)  
 
 <br/>  
 
@@ -75,11 +75,11 @@ select * from sawon a
 
 <br/>  
 
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/zmygpHm/right-outer-join.png" alt="right-outer-join" border="0"></a>  
+![right_outer_join](https://user-images.githubusercontent.com/103972967/164184125-669972f5-1aff-48d1-9901-5336e7d148b5.PNG)  
 
 <br/>  
 
-<a href="https://ibb.co/j4CBccR"><img src="https://i.ibb.co/ryBTCCs/right-outer-join2.png" alt="right-outer-join2" border="0"></a>  
+ ![right_outer_join2](https://user-images.githubusercontent.com/103972967/164184181-3ede6309-15cb-4ba0-a6f0-e356ac02ff02.PNG)  
 
 <br/>  
 
