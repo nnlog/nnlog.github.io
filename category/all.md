@@ -2,6 +2,6 @@
 
 layout: category-page
 
-title: all  
+title: All  
 
 ---
