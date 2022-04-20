@@ -1,7 +1,7 @@
 ---  
 published: true
 layout: post
-title:  "M1 MAC install DB(for database)"
+title:  "M1 MAC install DB(for dbeaver)"
 image: m1.jpg
 categories: all apple  
 ---
