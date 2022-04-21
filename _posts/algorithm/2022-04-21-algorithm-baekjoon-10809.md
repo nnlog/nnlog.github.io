@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "algorithm baekjoon 10809"
+image: algorithm.jpg  
+categories: All algorithm  
+---
+
 # baekjoon 10809  
 
 > [baekjoon 10809](https://www.acmicpc.net/status?user_id=jln0616&problem_id=10809&from_mine=1)  
