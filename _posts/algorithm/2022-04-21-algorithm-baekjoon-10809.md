@@ -7,7 +7,7 @@ categories: All algorithm
 
 # baekjoon 10809  
 
-> [baekjoon 10809](https://www.acmicpc.net/status?user_id=jln0616&problem_id=10809&from_mine=1)  
+> [baekjoon 10809](https://www.acmicpc.net/problem/10809)  
 > 
 > **문제** : 알파벳 소문자로만 이루어진 단어 S가 주어진다. 각각의 알파벳에 대해서, 단어에 포함되어 있는 경우 처음 등장하는 위치를, 포함되어있지 않은 경우에는 -1을 출력하는 프로그램을 작성하시오.  
 
