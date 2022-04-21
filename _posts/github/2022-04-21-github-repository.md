@@ -44,8 +44,7 @@ categories: All github
 
 ## 3. new repository에 **붙혀넣기**  
 
-`git remote set-url --push origin {new repository url}`  
-new repository url부분에 새로 만든 repository url을 붙혀 넣고 입력한다.  
+`git remote set-url --push origin {new repository url}` new repository url부분에 새로 만든 repository url을 붙혀 넣고 입력한다.  
 
 마지막으로 `git push --mirror`로 입력해주면 모든 파일들이 전부 새로운 repository로 들어간다.  
 
