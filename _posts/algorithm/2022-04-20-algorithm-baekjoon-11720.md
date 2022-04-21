@@ -44,6 +44,6 @@ public class Main {
 ```  
 ---  
 
-ps. `Integer.parseInt() 안에 substring 함수를 넣는 부분에서 조금 막힌게 아쉽다.😞`
+p.s. `Integer.parseInt() 안에 substring 함수를 넣는 부분에서 조금 막힌게 아쉽다.😞`
 
 
