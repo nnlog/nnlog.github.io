@@ -1,3 +1,10 @@
+---  
+layout: post  
+title: "fork repository copy in new repository"  
+image: github.jpg  
+categories: All github  
+---
+
 # fork repository copy in new repository  
 
 깃허브를 시작한지 얼마안되어 열정에 사로잡혀 글을 쓰다보니 눈에 들어온 것이 있었는데 바로 github의 꽃인 contibutions이다.  
@@ -22,6 +29,8 @@
 ## 2. old repository를 새로운 폴더에 복사  
 
 <br/>  
+
+<img width="1411" alt="스크린샷 2022-04-21 오후 11 24 05" src="https://user-images.githubusercontent.com/103972967/164480652-e13fe794-c13c-4864-b18b-06ba733e166e.png">  
 
 <br/>  
 
