@@ -18,6 +18,8 @@ categories: All algorithm
 
 ---  
 
+<script src="https://gist.github.com/nnlog/a3aaade0260361750aa505056ada0794.js"></script>  
+
 ```java
 import java.util.Scanner;
 
