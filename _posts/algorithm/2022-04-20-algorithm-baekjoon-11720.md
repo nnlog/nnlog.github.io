@@ -20,32 +20,6 @@ categories: All algorithm
 
 <script src="https://gist.github.com/nnlog/a3aaade0260361750aa505056ada0794.js"></script>  
 
-<br/>  
-
-```java
-import java.util.Scanner;
-
-public class Main {
-
-	public static void main(String[] args) {
-		
-		Scanner scan = new Scanner(System.in);
-		
-		int n = scan.nextInt();
-		String str = scan.next();
-		int num = 0;
-		
-		scan.close();
-		
-		for(int i=0; i<n; i++) {
-			num += Integer.parseInt(str.substring(i, i+1));
-		}
-		
-		System.out.println(num);
-	}
-	
-}
-```  
 ---  
 
 p.s. `Integer.parseInt() 안에 substring 함수를 넣는 부분에서 조금 막힌게 아쉽다.😞`
