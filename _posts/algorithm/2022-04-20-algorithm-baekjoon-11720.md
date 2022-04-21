@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "algorithm baekjoon 11720"
+image: algorithm.jpg  
+categories: All algorithm  
+---
+
+
 # baekjoon 11720
 
 >  [baekjoon 11720](https://www.acmicpc.net/problem/11720)  
