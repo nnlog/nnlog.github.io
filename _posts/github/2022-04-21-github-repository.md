@@ -11,22 +11,22 @@ categories: All github
 
 이 초록초록한걸로 말하자면 일종의 개발 일기 같은거다.  
 
-> 여기서 문제 발생    
+> 여기서 **문제** 발생    
 > fork repository에서 작성(commit)한 내용은 contribution이 되지 않는다.  
 
 근데 블로그 글을 업로드해도 contribution이 초록불이 안들어와 심기 불편하던 그때 구글링을 통해 방법을 찾았다.
 
 비슷한 경험을 겪는 사람들에게 도움이 되었으면 싶어 글을 작성해본다.  
   
-<mr/>  
+<br/>  
 
-## 1. 자주 쓰는 저장공간에 새로운 폴더를 생성  
+## 1. 자주 쓰는 저장공간에 새로운 폴더를 **생성**  
 
 `mkdir {새로운 폴더 이름}`으로 폴더생성 후 `cd {새로운 폴더}`로 폴더 진입  
 
-<mr/>  
+<br/>  
 
-## 2. old repository를 새로운 폴더에 복사  
+## 2. old repository를 새로운 폴더에 **복사**  
 
 <br/>  
 
@@ -40,9 +40,9 @@ categories: All github
 
 또한 폴더안에 {old repository name}.git이 생성되는데 `cd {old repository name}.git`으로 이동한다.  
 
-<mr/>  
+<br/>  
 
-## 3. new repository에 붙혀넣기  
+## 3. new repository에 **붙혀넣기**  
 
 `git remote set-url --push origin {new repository url}`  
 new repository url부분에 새로 만든 repository url을 붙혀 넣고 입력한다.  
