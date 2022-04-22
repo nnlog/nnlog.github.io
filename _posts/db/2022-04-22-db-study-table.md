@@ -1,3 +1,10 @@
+---  
+layout: post  
+title: "DB study about table"  
+image: study.jpg  
+categories: All db
+---  
+
 # DB study about table  
 
 DB table을 관리하는 쿼리에 대하여 간단하게 정리해보려한다.  
