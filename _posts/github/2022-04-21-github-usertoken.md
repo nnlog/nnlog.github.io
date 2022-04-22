@@ -1,6 +1,6 @@
 ---  
 layout: post  
-title: "git hub password NO! token YES!!"  
+title: "create git hub token"  
 image: github.jpg  
 categories: All github  
 ---  
