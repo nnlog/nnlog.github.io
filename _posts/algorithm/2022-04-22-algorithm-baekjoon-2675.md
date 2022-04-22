@@ -22,6 +22,8 @@ categories: All algorithm
 
 ---  
 
+<script src="https://gist.github.com/nnlog/30ac4726f932acd7b0f6ee7e11be8d9f.js"></script>  
+
 ---  
 
 
