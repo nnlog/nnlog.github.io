@@ -1,6 +1,6 @@
 ---  
 layout: post  
-title: "fork repository copy in new repository"  
+title: "git hub fork repository copy"  
 image: github.jpg  
 categories: All github  
 ---
@@ -57,4 +57,4 @@ categories: All github
 이후에는 `rm -rf .git` -> `cd ..` -> `rm -rf {새로만든폴더}`순으로 입력해 잠시 거쳐간 폴더를 지워준다.  
 
 
-p.s. `push --mirror`과정에서 github username, password 물어볼 수 있는데 그건 [github password No! token Yes!!]()에서 확인 할 수 있다.
+p.s. `push --mirror`과정에서 github username, password 물어볼 수 있는데 그건 [create github token](https://nnlog.github.io/2022/04/21/github-usertoken/)에서 확인 할 수 있다.
