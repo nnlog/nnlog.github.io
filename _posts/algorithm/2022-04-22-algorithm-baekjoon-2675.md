@@ -1,3 +1,10 @@
+---  
+layout: post  
+title: "algorithm baekjoon 2675"  
+image: algorithm.jpg  
+categories: All algorithm
+---
+
 # baekjoon 2675  
 
 > [baekjoon 2675]()  
