@@ -11,6 +11,12 @@ categories: All github
 
 이 초록초록한걸로 말하자면 일종의 개발 일기 같은거다.  
 
+<br/>  
+
+<img width="922" alt="스크린샷 2022-04-22 오전 9 08 49" src="https://user-images.githubusercontent.com/103972967/164570371-a15ebc7c-1c4f-4886-b777-eaa8396666dc.png">  
+
+<br/>  
+
 > 여기서 **문제** 발생    
 > fork repository에서 작성(commit)한 내용은 contribution이 되지 않는다.  
 
