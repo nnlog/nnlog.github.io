@@ -1,7 +1,7 @@
 ---  
 
 layout: post  
-title: "DB study about PK adn FK"  
+title: "DB study about PK and FK"  
 image: study.jpg  
 categories: All db  
 
@@ -9,7 +9,7 @@ categories: All db
 
 # DB study about PK and FK  
 
-DB PK(primary key)와 FK(foreign key)에 대하여 정리해본다.  
+DB PK(Primary Key)와 FK(Foreign Key)에 대하여 정리해본다.  
 
 <br/>  
 
@@ -24,6 +24,8 @@ DB PK(primary key)와 FK(foreign key)에 대하여 정리해본다.
 > * PK는 NOT NULL + UNIQUE의 기능을 가지고 있다.  
 > 
 > * 자동으로 INDEX가 생성이 되는데 이는 검색 키로서 검색 속도를 향상시킨다.  
+
+<br/>  
 
 ### 1.1 선언 방법  
 
@@ -53,6 +55,8 @@ create table testtable(
 > * 부모 테이블은 자식의 데이터나 테이블이 삭제된다고 영향을 받지 않는다.  
 > 
 > * 참조하는 데이터 칼럼과 데이터 타입이 반드시 일치 해야 한다.  
+
+<br/>  
 
 ### 2.1 선언 방법  
 
@@ -86,6 +90,8 @@ alter table [테이블 이름]
 add constraints [외래키 이름] foreign key( [참조 컬럼] )
 references [참조 테이블 이름]( [참조 컬럼] )  
 ```  
+
+<br/>  
 
 ### 2.2 외래 키 삭제  
 
