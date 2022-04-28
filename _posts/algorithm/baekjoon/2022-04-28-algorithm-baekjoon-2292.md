@@ -23,3 +23,5 @@ categories: All algorithm
 <script src="https://gist.github.com/nnlog/66e619e869f4cd71c3b7a6419eb486c3.js"></script>  
 
 ---   
+
+p.s. `처음에 max += num*6으로 범위를 잡고 몇개의 예제가 맞길래 어디서 틀린지를 아예 못찾고있다가 min max값을 출력해보니 그제서야 알았다. 범위를 아예 잘못잡은건데 이거를... 어쨋든 조금 돌아서 오래걸렸지만 잘해결해서 다행이다. 👏`
