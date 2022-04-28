@@ -1,11 +1,11 @@
-title: John`s Blog
+title: N Blog
 description: 취미로 하는 개발일지
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://nnlog.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 future: true
 
 # Author
-author-name:    John
+author-name:    N
 author-image:   N.jpg
 author-job:     Student Developer
 author-email:   jongseona99@gmail.com # Add your email for contant form.
