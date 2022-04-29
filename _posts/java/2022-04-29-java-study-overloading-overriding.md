@@ -1,3 +1,12 @@
+---  
+
+layout: post  
+title: "java study about Overloading and Overriding"  
+image: javastudy.jpg  
+categories: All java  
+
+---  
+
 # Overloading VS Overriding  
 오버라이딩과 오버로딩, 이름이 비슷한 두 개의 차이점을 살펴보려고 한다.  
 
