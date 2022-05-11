@@ -1,7 +1,7 @@
 ---  
 
 layout: post  
-title: "java study about Overloading and Overriding"  
+title: "java study about Recursion Function"  
 image: javastudy.jpg  
 categories: All java  
 
