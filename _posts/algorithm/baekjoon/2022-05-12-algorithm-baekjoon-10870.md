@@ -32,4 +32,4 @@ categories: All algorithm
 
 ---   
 
-p.s. `재귀함수를 이용한 피보나치 수열은 앞서 등록해놓은 재귀함수 게시물을 보면 이해가 쉽다 😀`  
+p.s. `재귀함수를 이용한 피보나치 수열은 앞서 등록해놓은` [재귀함수](https://nnlog.github.io/2022/05/11/java-study-recursion-function/)`게시물을 보면 이해가 쉽다 😀`  
