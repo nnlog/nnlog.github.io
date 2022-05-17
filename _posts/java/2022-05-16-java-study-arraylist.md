@@ -53,6 +53,18 @@ ArrayList는 Object배열을 순차적으로 저장한다. 예를 들면, 첫 �
 |boolean isEmpty()|ArrayList가 비어있는지 확인한다.|  
 |Iterator iterator()|ArrayList의 Iterator객체를 반환한다.|  
 |int lastIndexOf(object o)|객체(o)가 저장된 위치를 끝부터 역방향으로 검색해서 반환한다.|  
+|ListIterator listIterator()|ArrayList의 ListIterator를 반환한다.|  
+|Object remove(int index)|지정된 위치(index)에 있는 객체를 제거한다.|  
+|boolean remove(Object o)|지정한 객체를 제거한다.(성공하면 true, 실패시 false)|  
+|boolean removeAll(Collection c)|지정한 컬렉션에 저장된것과 동일한 객체들을 ArrayList에서 제거한다.|  
+|boolean retainAll(Collection c)|ArrayList에 저장된 객체 중에서 주어진 컬렉션과 공통된 것들만 남기고 나머지는 삭제한다.|  
+|Object set(int index, Object element)|주어진 객체(element)를 지정된 위치(index)에 저장한다.|  
+|in size()|ArrayList에 저장된 객체의 개수를 반환한다.|  
+|void sort(Comparator c)|지정된 정렬기준(c)으로 ArrayList를 정렬한다.|  
+|List subList(int fromIndex, int toIndex)|fromIndex로부터 toIndex사이에 저장된 객체를 반환한다.|  
+|Object[] toArray()|ArrayList에 저장된 모든 객체들을 객체배열로 반환한다.|  
+|Object[] toArray(Object[] a)|ArrayList에 저장된 모든 객체들을 객체배열 a에 담아 반환한다.|  
+|void trimToSize()|용량을 크기에 맞게 줄인다.(빈 공간을 없앤다.)|  
 
 <br>  
 
