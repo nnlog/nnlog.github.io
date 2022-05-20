@@ -200,7 +200,7 @@ DROP VIEW view_name;
 
 <br/>  
 
-### 2.4 TRINCATE  
+### 2.4 TRUNCATE  
 
 ---  
 ```  
