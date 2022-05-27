@@ -1,6 +1,6 @@
 ---  
 layout: post  
-title: "algorithm baekjoon 9020(JAVA)"  
+title: "algorithm baekjoon 9020 in java"  
 image: algorithm.jpg  
 categories: All algorithm  
 ---  
