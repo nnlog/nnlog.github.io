@@ -5,7 +5,7 @@ image: algorithm.jpg
 categories: All algorithm  
 ---  
 
-# 숫자카드  
+# 숫자 카드  
 
 > [beakjoon 10815](https://www.acmicpc.net/problem/10815)  
 >   

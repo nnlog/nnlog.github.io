@@ -42,7 +42,7 @@ categories: All algorithm
 예를 들어,
 그림을 보자.  
 
-![](https://user-images.githubusercontent.com/103972967/172336443-71cf7414-1723-4487-9d41-4029366df869.png)  
+![](https://user-images.githubusercontent.com/103972967/172381588-dd9e5585-c136-4779-b4d3-127efca0c271.png)  
 
 이렇게 찾으려는 키값의 처음 등장하는 위치값, 최초로 초과하는 위치값을 알아내야하기 때문에 2개의 메소드를 생성해야 한다.  
 lowIndex값을 찾는 메소드, highIndex값을 찾는 메서드로 나뉘는데 방식은 비슷하다.  
