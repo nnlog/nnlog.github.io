@@ -56,7 +56,7 @@ lowIndex값을 찾는 메소드, highIndex값을 찾는 메서드로 나뉘는�
 <br>  
 
 가장 처음 등장하는 값을 찾기 위해서  
-`if(numN[mid] >= key) > end = mid, else > start = mid+1`로 범위를 좁혀가게 설계한다. 여기서 주의깊게 볼 점은 중앙값과 키값이 일치할때 end값을 mid로 설정하는 부분이다.  
+`if(numN[mid] >= key) -> end = mid, else -> start = mid+1`로 범위를 좁혀가게 설계한다. 여기서 주의깊게 볼 점은 중앙값과 키값이 일치할때 end값을 mid로 설정하는 부분이다.  
 lowIndex()의 경우 중복값이 나타나도 end = mid로 설정해야 end값을 움직여 low와 겹치는 부분을 찾을 수 있기 때문이다.  
 
 범위를 좁혀나가는 과정을 이해하기 쉽게 사진을 통해 빠르게 알아보자.  
