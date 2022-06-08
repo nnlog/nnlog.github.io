@@ -11,7 +11,8 @@ categories: All db apple java
 
 <br>  
 
-중요한 정보의 창고 역할을 하는 DB는 표를 만들고 정보를 입력하여 넣을 수 있는데 이렇게 정리된 표를 프론트단으로 가져오기 위해서는 java project와 DB를 연결 할 수 있어야 한다.  
+중요한 정보의 창고 역할을 하는 DB는 표를 만들고 정보를 입력하여 넣을 수 있는데,  
+이렇게 정리된 표를 프론트단으로 가져오기 위해서는 java project와 DB를 연결 할 수 있어야 한다.  
 
 <br>  
 
@@ -65,7 +66,8 @@ user = **"ADMIN"**으로 동일 하다.
 
 <br>  
 
-그 다음은 Class.forName으로 driver주소를 넘겨주고 Connection객체로 생성한 con에 DriverManager를 통해 위에서 입력 해놓은 url, user, password를 넘겨준다.  
+그 다음은 Class.forName으로 driver주소를 넘겨주고 Connection객체로 생성한 con에  
+DriverManager를 통해 위에서 입력 해놓은 url, user, password를 넘겨준다.  
 
 그 후 con을 리턴해줌으로써 getConnection()메서드가 종료된다.  
 
