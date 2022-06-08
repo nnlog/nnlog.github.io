@@ -51,7 +51,7 @@ lowIndex값을 찾는 메소드, highIndex값을 찾는 메서드로 나뉘는�
 
 ---  
 
-## lowIndex(), highIndex()  
+## lowIndex(), highIndex() 생성  
 
 <br>  
 
