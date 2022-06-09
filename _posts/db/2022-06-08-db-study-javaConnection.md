@@ -11,7 +11,7 @@ categories: All db apple java
 
 <br>  
 
-중요한 정보의 창고 역할을 하는 DB는 표를 만들고 정보를 입력하여 넣을 수 있는데,  
+중요한 정보의 창고 역할을 하는 DB는 표를 만들고 정보를 입력하여 넣을 수 있는데  
 이렇게 정리된 표를 프론트단으로 가져오기 위해서는 java project와 DB를 연결 할 수 있어야 한다.  
 
 <br>  
@@ -32,7 +32,8 @@ categories: All db apple java
 
 <br>  
 
-우선 eclipse dynamic web project안에 java 또는 src/main/java (버전에 따라 다름)에 DBConnection이라는 클래스를 생성해 준다. 매번 프로젝트에서 DB를 연결하는것은 골치 아프기 때문에 따로 만들어서 사용하는게 유지보수에 확실히 좋다.  
+우선 eclipse dynamic web project안에 java 또는 src/main/java (버전에 따라 다름)에 DBConnection이라는 클래스를 생성해 준다.  
+매번 프로젝트에서 DB를 연결하는것은 골치 아프기 때문에 따로 만들어서 사용하는게 유지보수에 확실히 좋다.  
 
 <br>  
 
@@ -41,6 +42,14 @@ categories: All db apple java
 ![DBConnection.java](https://user-images.githubusercontent.com/103972967/172570745-6d0cea9c-2e25-4c67-b946-d127e3809c7e.png)  
 
 프로젝트를 생성하여 그때마다 연결할 Connection을 위해 getConnection()메서드를 생성 후 그 일련의 과정 중 필요한 정보들을 선언한다.  
+
+<br>  
+
+> **Connection 인터페이스**  
+> 
+> DriverManager클래스의 getConnection()메소드를 실행함으로써 정의되며 데이터베이스와 연결된 세션(session)역할을 합니다.  
+> 
+> 이 세션을 이용하여 데이터베이스에 SQL을 전송하고 그 결과인 ResultSet객체를 얻어낸다.  
 
 <br>  
 
@@ -66,8 +75,7 @@ user = **"ADMIN"**으로 동일 하다.
 
 <br>  
 
-그 다음은 Class.forName으로 driver주소를 넘겨주고 Connection객체로 생성한 con에  
-DriverManager를 통해 위에서 입력 해놓은 url, user, password를 넘겨준다.  
+그 다음은 Class.forName으로 driver주소를 넘겨주고 Connection객체로 생성한 con에 DriverManager를 통해 위에서 입력 해놓은 url, user, password를 넘겨준다.  
 
 그 후 con을 리턴해줌으로써 getConnection()메서드가 종료된다.  
 
@@ -81,7 +89,8 @@ DriverManager를 통해 위에서 입력 해놓은 url, user, password를 넘겨
 
 <br>  
 
-DBConnection.java를 연결하고자 하는 디비와 정보를 일치하게 입력하였다면 끝이라고 봐도 무방하다. jdbcTest.jsp는 위에서 연결을 시도했던 메서드가 정상적으로 작동 하였는지 확인 하기 위해서 테스트겸 만드는 것이기 때문에 아주 간단하다.  
+DBConnection.java를 연결하고자 하는 디비와 정보를 일치하게 입력하였다면 끝이라고 봐도 무방하다.  
+jdbcTest.jsp는 위에서 연결을 시도했던 메서드가 정상적으로 작동 하였는지 확인 하기 위해서 테스트겸 만드는 것이기 때문에 아주 간단하다.  
 
 <br>  
 
@@ -89,7 +98,8 @@ DBConnection.java를 연결하고자 하는 디비와 정보를 일치하게 입
 
 우선 새로운 jsp에 새로운 Connection con을 생성하여 미리 만들어 놓았던 DBConnection 클래스를 선언해주면 된다.  
 
-이렇게 선언된 상태에서 `if(con == null) -> result = "failed"`를 통해 확인 절차를 밟을 수 있는데 만약 DBConnection 클래스에서 연결이 성공적으로 되지 않는다면 con에는 담겨져 있는 객체가 없기 때문에 null 상태가 되기에 이점을 이용한 것이다.  
+이렇게 선언된 상태에서 `if(con == null) -> result = "failed"`를 통해 확인 절차를 밟을 수 있는데  
+만약 DBConnection 클래스에서 연결이 성공적으로 되지 않는다면 con에는 담겨져 있는 객체가 없기 때문에 null 상태가 되기에 이점을 이용한 것이다.  
 
 <br>  
 
