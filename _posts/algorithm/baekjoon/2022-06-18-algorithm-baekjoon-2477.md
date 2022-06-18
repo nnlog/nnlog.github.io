@@ -5,9 +5,7 @@ image: algorithm3.jpg
 categories: All algorithm  
 ---  
 
-# [참외 밭](https://www.acmicpc.net/problem/2477)  
-
-## 문제  
+# [참외 밭](https://www.acmicpc.net/problem/2477)   
 
 <br>  
 
