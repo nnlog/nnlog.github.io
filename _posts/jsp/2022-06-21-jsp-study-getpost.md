@@ -1,7 +1,7 @@
 ---  
 
 layout: post  
-title: "java study about GET/POST"  
+title: "jsp study about GET/POST"  
 image: jspstudy.jpg  
 categories: All jsp  
 
