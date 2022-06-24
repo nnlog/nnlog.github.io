@@ -9,7 +9,7 @@ categories: All jsp
 
 <br>  
 
-# 디렉티브 태그  
+# **디렉티브 태그**  
 <hr>  
 
 디렉티브 태그란 현재 JSP페이지의 특정 영역에 외부 파일의 내용을 포함시키는 태그이다.  
@@ -21,7 +21,7 @@ categories: All jsp
 
 <br>  
 
-# 액션 태그  
+# **액션 태그**  
 <hr>  
 
 JSP페이지에서 동일한 내용이라도 자바 코드를 기술하기 보다는 태그를 기술하는 것이 지저분하지  
@@ -40,32 +40,34 @@ JSP페이지에서 동일한 내용이라도 자바 코드를 기술하기 보�
 
 ## 종류  
 
-> * forward(<jsp:forward.../>)
-> 다른 페이지로의 이동, 페이지 흐름 제어  
+* forward(<jsp:forward.../>)  
+다른 페이지로의 이동, 페이지 흐름 제어  
 
-> * include(<jsp:include.../>)  
-> 외부 페이지의 내용을 포함하거나 페이지 모듈화  
+* include(<jsp:include.../>)  
+외부 페이지의 내용을 포함하거나 페이지 모듈화  
 
-> * param(<jsp:useBean.../>)  
-> 현재 페이지에서 다른 페이지에 정보를 전달할 때 사용  
+* param(<jsp:useBean.../>)  
+현재 페이지에서 다른 페이지에 정보를 전달할 때 사용  
 
-> * useBean(<jsp:useBean.../>)  
-> 빈(Bean)을 생성하고 사용하기 위한 환경을 정의하는 액션 태그  
+* useBean(<jsp:useBean.../>)  
+빈(Bean)을 생성하고 사용하기 위한 환경을 정의하는 액션 태그  
 
-> * setProperty(<jsp:setProperty.../>)  
-> 빈에서 속성 값을 할당  
+* setProperty(<jsp:setProperty.../>)  
+빈에서 속성 값을 할당  
 
-> * getProperty(<jsp:getProperty.../>)  
-> 빈에서 속성 값을 얻어올 때 사용  
+* getProperty(<jsp:getProperty.../>)  
+빈에서 속성 값을 얻어올 때 사용  
 
 <br>  
 
-# 페이지 이동  
+# **페이지 이동**  
 <hr>  
 
 jsp를 이용하면 보다 수월한 동적 웹 페이지를 만들기 위해 페이지에서 페이지로 이동하는 경우를 계속 마주친다.  
 
 그렇기 때문에 상황(페이지에서 보내야하는 정보)에 맞게 필요한 방식으로 쓸 수 있어야 한다.     
+
+<br>  
 
 ## Forward  
 
@@ -75,7 +77,7 @@ forward 방식은 웹 브라우저에서 넘어온 request(요청)에 따른 페
 또한 forward는 한번 받아온 변수를 페이지 이동간에 계속해서  
 사용된다. 특히 DB와 연결하여 사용할 때 테이블 조회 하여 정보를 가져올 때 탁월하다.  
 
-사진을 보면 forward의 기능에 대해서 이해하기 쉽다.  
+*사진을 보면 forward의 기능에 대해서 이해하기 쉽다.*  
 
 <br>  
 
@@ -91,7 +93,7 @@ forward 방식은 웹 브라우저에서 넘어온 request(요청)에 따른 페
 
 **사용 방법**  
 
-1. <jsp:forward page="이동할 페이지"/> : 액션 태그 사용  
+1. `<jsp:forward page="이동할 페이지"/>` : 액션 태그 사용  
 
 2. pageContext.forward("이동할 페이지"); : 내장 객체 사용  
 
