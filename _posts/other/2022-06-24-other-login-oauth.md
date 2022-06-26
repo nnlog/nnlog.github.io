@@ -3,7 +3,7 @@
 layout: post  
 title: "OAuth"  
 image: study.jpg  
-categories: All other  
+categories: All other   
 
 ---  
 
