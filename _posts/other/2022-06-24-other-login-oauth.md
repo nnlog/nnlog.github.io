@@ -2,7 +2,7 @@
 
 layout: post  
 title: "OAuth"  
-image: OAuth.png  
+image: study.png  
 categories: All other  
 
 ---  
