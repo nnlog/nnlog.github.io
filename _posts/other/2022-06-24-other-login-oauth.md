@@ -2,7 +2,7 @@
 
 layout: post  
 title: "OAuth"  
-image: https://upload.wikimedia.org/wikipedia/commons/d/d2/Oauth_logo.svg  
+image: <img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Oauth_logo.svg">  
 categories: All other  
 
 ---  
