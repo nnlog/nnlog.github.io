@@ -2,7 +2,7 @@
 
 layout: post  
 title: "OAuth"  
-image: other.jpg  
+image: ![OAuth](https://www.google.com/imgres?imgurl=https%3A%2F%2Fimage.toast.com%2Faaaadh%2Falpha%2F2017%2Ftechblog%2Foauthretinapreview.jpg&imgrefurl=https%3A%2F%2Fmeetup.toast.com%2Fposts%2F105&tbnid=G4dv4drsW_r0cM&vet=12ahUKEwjiiPDIzM_4AhW1zosBHXXxDpsQMygXegUIARDiAQ..i&docid=CnMGvy1EB6knIM&w=400&h=400&q=oauth&ved=2ahUKEwjiiPDIzM_4AhW1zosBHXXxDpsQMygXegUIARDiAQ)  
 categories: All other  
 
 ---  
@@ -15,7 +15,11 @@ categories: All other
 > 
 > 2. OAuth의 구조  
 > 
-> 3. OAuth와 API의 차이  
+> 3. API  
+> 
+> 4. OAuth의 종류  
+> 
+> 5. Token  
 
 <br>  
 
