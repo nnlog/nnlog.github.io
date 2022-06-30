@@ -5,7 +5,7 @@ image: github.jpg
 categories: All github  
 ---
 
-# Github  
+# **Github**  
 <hr>  
 
 때떄로 터미널에서 `push`하여 깃허브에 파일을 업로드 중  
@@ -19,7 +19,9 @@ categories: All github
 
 > [Github Token](https://nnlog.github.io/2022/04/21/github-usertoken/)  
 
-# 터미널 설정  
+<br>  
+
+# **터미널 설정**  
 <hr>  
 
 기존 `origin`을 제거한 후, 다시 추가하는 방법으로 해결한다.  
