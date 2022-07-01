@@ -5,15 +5,15 @@ image: github.jpg
 categories: All github  
 ---
 
-# **Github**  
+# 원인  
 <hr>  
 
 때떄로 터미널에서 `push`하여 깃허브에 파일을 업로드 중  
 
 `remote: Invalid username or password.`와 함께 `push`가 정상적으로 작동하지 않을 때가 있다.  
 
-이는 Github에서 비밀번호 대신 사용자에게 권한을 위임하는 `token`이  
-예정된 기한이 만료되어 발생하는 문제이다.  
+이는 Git에서 Github로 사용자 계정을 연결하는 과정에서 비밀번호 대신 사용하는 token의  
+기한이 만료되면서 정상적으로 연동되지 않아 발생하는 문제이다.  
 
 때문에 이 `token`을 발급 또는 재발급 후 터미널에서 간단한 명령어를 통해 재설정 해주면 된다.  
 
