@@ -1,7 +1,7 @@
 ---  
 layout: post
 title:  "M1 MAC install MySql"
-image: m1.jpg
+image: mysql.png
 categories: All apple db  
 ---  
 
