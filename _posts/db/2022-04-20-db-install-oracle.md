@@ -1,7 +1,7 @@
 ---  
 published: true
 layout: post
-title:  "M1 MAC install DB(for dbeaver)"
+title:  "M1 MAC install Oracle(for dbeaver)"
 image: m1.jpg
 categories: All apple db  
 ---  
